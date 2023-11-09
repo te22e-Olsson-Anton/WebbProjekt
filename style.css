@@ -11,7 +11,10 @@
 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 250px 250px 250px 100px; 
+    
+
+
     padding-left: 125px;
     padding-right: 125px;
     
@@ -22,6 +25,8 @@
     border: 10px solid #05DB1A;
     border-radius: 20px;
     margin-bottom: 30px;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
 .topBild
 {
@@ -52,8 +57,11 @@ p
 {
     border: 10px solid #05DB1A;
     border-radius: 20px;
-
     margin-bottom: 150px;
+
+    grid-row-start: 3;
+    grid-row-end: 6;
+    
 }
 h3
 {
@@ -64,5 +72,8 @@ h3
     border: 10px solid #05DB1A;
     border-radius: 20px;
     margin-left: 150px;
-
+    margin-top: 45px;
+    grid-row-start: -4;
+    grid-row-end: -1;
+    
 }
