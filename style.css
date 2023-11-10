@@ -11,7 +11,7 @@
 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 250px 250px 250px 100px; 
+    grid-template-rows: 250px 250px 100px 250px; 
     
 
 
@@ -57,10 +57,10 @@ p
 {
     border: 10px solid #05DB1A;
     border-radius: 20px;
-    margin-bottom: 150px;
+    
 
     grid-row-start: 3;
-    grid-row-end: 6;
+    grid-row-end: 5;
     
 }
 h3
@@ -76,4 +76,39 @@ h3
     grid-row-start: -4;
     grid-row-end: -1;
     
+}
+.servering
+{
+    border: 10px solid #05DB1A;
+    border-radius: 20px;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: -2;
+    margin-top: 30px;
+    
+}
+.bilder
+{
+    margin-left: 150px;
+    display: flex;
+    gap: 90px;
+    margin-top: 30px;
+}
+.vispgräddebild, .pajbild2
+{
+    max-width: 200px;
+}
+
+.antonsmat
+{
+    max-width: 200px;
+}
+
+footer
+{
+    background-color: #05DB1A;
+    margin-top: 30px;
+    display: flex;
+    justify-content: right;
 }
