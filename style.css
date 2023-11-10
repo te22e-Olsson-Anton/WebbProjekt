@@ -2,6 +2,12 @@
 {
     background-image: url(TopBild.webp);
     background-size: cover;
+    display: flex;
+    gap: 290px;
+}
+h1
+{
+    font-size: 48px;
 }
 .logga
 {
