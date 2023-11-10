@@ -9,6 +9,16 @@ h1
 {
     font-size: 48px;
 }
+.desserter
+{
+    background-color: #05DB1A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: 1px solid #05DB1A;
+    border-radius: 20px;
+}
 .logga
 {
     max-height: 100px;
