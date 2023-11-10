@@ -109,6 +109,17 @@ footer
 {
     background-color: #05DB1A;
     margin-top: 30px;
+    
+}
+.footer-bild
+{
     display: flex;
     justify-content: right;
+}
+.footer-div
+{
+    display: flex;
+    justify-content: center;
+    
+    
 }
