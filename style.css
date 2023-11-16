@@ -23,6 +23,7 @@ h1
 .logga
 {
     max-height: 100px;
+    max-width: auto;
 }
 .allt
 {
@@ -57,6 +58,7 @@ h1
 .pajBild
 { 
     max-width: 500px;
+    max-height: auto;
     margin-left: 150px;
 }
 h2
